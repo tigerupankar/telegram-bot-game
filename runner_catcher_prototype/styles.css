@@ -1,0 +1,10 @@
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+body, html { height: 100%; background: linear-gradient(#dbe9ff, #ffffff); }
+.app { display:flex; flex-direction:column; align-items:center; padding:8px; }
+#topbar { width:100%; max-width:900px; display:flex; justify-content:space-between; margin-bottom:6px; }
+#score, #caught { background:rgba(0,0,0,0.6); color:white; padding:6px 10px; border-radius:10px; font-weight:bold; }
+canvas { background: linear-gradient(#9bd, #6ab); border-radius:12px; box-shadow: 0 6px 18px rgba(0,0,0,0.2); max-width:100%; height:auto; }
+.mobile-controls { margin-top:8px; display:flex; gap:8px; }
+.mobile-controls button { font-size:20px; padding:12px 20px; border-radius:10px; border: none; background: rgba(255,255,255,0.9); box-shadow:0 4px 8px rgba(0,0,0,0.12); }
+#gameCanvas { touch-action: none; }
